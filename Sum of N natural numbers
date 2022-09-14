@@ -1,0 +1,12 @@
+import java.util.*;
+class Main {
+  public static void main(String[] args) {
+   Scanner sc=new Scanner(System.in);
+    int d=sc.nextInt();
+    int s=d*(d+1)/2;
+    System.out.print(s); 
+  }
+}
+  /*i/p : 5   i/p: 2   
+    15        3
+  */
